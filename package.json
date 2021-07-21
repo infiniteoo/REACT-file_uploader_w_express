@@ -1,0 +1,31 @@
+{
+  "name": "react-file_uploader_w_express",
+  "version": "1.0.0",
+  "description": "### About",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server.js",
+    "server": "nodemon server.js",
+    "client": "npm start --prefix client",
+    "dev": "concurrently \"npm run server\" \"npm run client\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/infiniteoo/REACT-file_uploader_w_express.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/infiniteoo/REACT-file_uploader_w_express/issues"
+  },
+  "homepage": "https://github.com/infiniteoo/REACT-file_uploader_w_express#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "express-fileupload": "^1.2.1"
+  },
+  "devDependencies": {
+    "concurrently": "^6.2.0",
+    "nodemon": "^2.0.12"
+  }
+}
